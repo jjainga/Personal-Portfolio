@@ -10,7 +10,7 @@ body {
 
 .row {
     margin: 0 auto;
-    width: 80%;
+    width: 90%;
 }
 
 
@@ -26,14 +26,34 @@ body {
 .col-md-8 {
     background-color: whitesmoke;
     overflow: auto;
+    width: 75%vw;
 }
-/* Below pixels 786 images and text boxes decrease in size*/
-@media screen (max-width: 768px)
 
-.row img {
-    width: 25%;
+.col-md-4 {
+    width: 20%vw;
+
+}
+/* Below pixels 400 images and text boxes decrease in size*/
+
+@media screen and (max-width: 768px) {
+
+.container {
+    margin: 0 auto;
+    width: 95%;
 }
 
 .col-md-8 {
-width: 75%;
+    margin: 5px;
+    padding: 5px;
+    align-content: center;
+    width: 45%;
+    }
+
+.col-md-4 {
+    margin: 5px;
+    padding: 5px;
+    align-content: center;
+    width: 45%;
+    
+}
 }
