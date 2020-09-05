@@ -1,0 +1,39 @@
+* {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+body {
+    background-image: url(../images/brushed-alum.png);
+    background-color: #e04700;
+}
+
+
+.row {
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+
+#carouselExampleSlidesOnly {
+    width: 100% vw;
+}
+
+.carousel-inner .carousel-item img {
+    height: 25%;
+}
+
+.col-md-8 {
+    background-color: whitesmoke;
+    overflow: auto;
+}
+/* Below pixels 786 images and text boxes decrease in size*/
+@media screen (max-width: 768px)
+
+.row img {
+    width: 25%;
+}
+
+.col-md-8 {
+width: 75%;
+}
