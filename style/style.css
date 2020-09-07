@@ -4,7 +4,7 @@
 
 body {
     background-image: url(../images/brushed-alum.png);
-    background-color: #e04700;
+    background-color: #808088;
 }
 
 
@@ -32,8 +32,8 @@ body {
 }
 
 .col-md-12 {
-    background-color: lightgray;
-    width: 45%; 
+    background-color: whitesmoke;
+    width: 90%; 
     padding: 5px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -52,6 +52,15 @@ body {
 .card {
     margin: 0 auto;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
 
 /* Below pixels 400 images and text boxes decrease in size*/
 
@@ -80,9 +89,20 @@ body {
 .col-md-12 {
     margin: 5px;
     padding: 5px;
-    width: 80%vw;
+    width: 75%vw;
     margin: 0 auto;
     text-align: center;
 
 }
+}
+
+@media screen and (max-width: 580px) {
+    .col-md-12 {
+        .col-md-12 {
+            margin: 5px;
+            padding: 5px;
+            width: 95%vw;
+            margin: 0 auto;
+            text-align: center;  
+    }
 }
