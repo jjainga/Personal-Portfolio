@@ -11,6 +11,8 @@ body {
 .row {
     margin: 0 auto;
     width: 90%;
+    overflow:auto;
+    
 }
 
 
@@ -29,10 +31,28 @@ body {
     width: 75%vw;
 }
 
+.col-md-12 {
+    background-color: lightgray;
+    width: 45%; 
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: auto;
+}
 .col-md-4 {
     width: 20%vw;
 
 }
+.col-md {
+    text-align: center;
+}
+
+.card {
+    margin: 0 auto;
+}
+
 /* Below pixels 400 images and text boxes decrease in size*/
 
 @media screen and (max-width: 768px) {
@@ -55,5 +75,14 @@ body {
     align-content: center;
     width: 45%;
     
+}
+
+.col-md-12 {
+    margin: 5px;
+    padding: 5px;
+    width: 80%vw;
+    margin: 0 auto;
+    text-align: center;
+
 }
 }
