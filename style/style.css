@@ -43,6 +43,8 @@ body {
 }
 .col-md-4 {
     width: 20%vw;
+    background-color: whitesmoke;
+    
 
 }
 .col-md {
@@ -62,7 +64,7 @@ body {
     text-align: center;
   }
 
-/* Below pixels 400 images and text boxes decrease in size*/
+/* Below pixels 768 images and text will respond to size*/
 
 @media screen and (max-width: 768px) {
 
@@ -96,13 +98,22 @@ body {
 }
 }
 
+/* Below 580 px images and text will responed to size*/
 @media screen and (max-width: 580px) {
     .col-md-12 {
-        .col-md-12 {
             margin: 5px;
             padding: 5px;
             width: 95%vw;
             margin: 0 auto;
             text-align: center;  
     }
+
+    .footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        color: white;
+        text-align: center;
+      }
 }
