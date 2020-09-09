@@ -7,12 +7,10 @@ body {
     background-color: #808088;
 }
 
-
 .row {
     margin: 0 auto;
     width: 90%;
     overflow:auto;
-    
 }
 
 
@@ -43,10 +41,13 @@ body {
 }
 .col-md-4 {
     width: 20%vw;
-    background-color: whitesmoke;
-    
+    background-color: none;
+    margin: 0 auto;
+    padding: 5px;
 
 }
+
+
 .col-md {
     text-align: center;
 }
