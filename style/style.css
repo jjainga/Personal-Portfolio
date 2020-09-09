@@ -49,6 +49,10 @@ body {
 .card {
     margin: 0 auto;
 }
+/*Making footer stay at bottom of page*/
+footer {
+    bottom:0vw;
+}
 
 
 /* Below pixels 768 images and text will respond to size*/
@@ -86,14 +90,4 @@ body {
             margin: 0 auto;
             text-align: center; 
     }
-
-
-    .footer {
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        color: white;
-        text-align: center;
-      }
 }
