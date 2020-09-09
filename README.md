@@ -7,7 +7,7 @@ portfolio ---> projects.html
 
 utilized bootstrap to make sure screen responiveness was appropriate for different screen sizes.
 
-about me page includes:
+About me page includes:
     navbar to get to all pages.
     carousel of personal images that I have shot in my free time.
     a bio of myself and a placeholder image.
